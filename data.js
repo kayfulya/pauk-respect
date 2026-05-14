@@ -1,0 +1,690 @@
+window.PAUK_DATA = {
+  "meta": {
+    "title": "Реестр Очков Уважения",
+    "subtitle": "Свод Совета Свидетелей Паука",
+    "period": "Март — Май 2026",
+    "rule_cap": 10000,
+    "rule_cap_note": "Согласно Уставу Совета — максимум 10 000 очков за единичное начисление. Превышение округляется до потолка."
+  },
+  "members": [
+    {
+      "id": "lesha",
+      "name": "Леша",
+      "alias": "Любимка",
+      "role": "Лид по моторам · Муж Кайфули",
+      "emoji": "🚗"
+    },
+    {
+      "id": "vasya",
+      "name": "Вася",
+      "alias": "Василий Карпюк",
+      "role": "Паучий отчим · Кует моторы из стали",
+      "emoji": "🔧"
+    },
+    {
+      "id": "tolya",
+      "name": "Толя Ларин",
+      "alias": "Владелец",
+      "role": "Паучий папа · Носитель Восточного фронта",
+      "emoji": "🕷"
+    },
+    {
+      "id": "ulya",
+      "name": "Уля",
+      "alias": "Кайфуля",
+      "role": "Летописец Совета · Рилсуля",
+      "emoji": "🌿"
+    },
+    {
+      "id": "tanya",
+      "name": "Таня",
+      "alias": "лид овуляции",
+      "role": "Лид финансов",
+      "emoji": "✨"
+    },
+    {
+      "id": "dina",
+      "name": "Дина",
+      "alias": null,
+      "role": "Регулярная сестра",
+      "emoji": "💜"
+    },
+    {
+      "id": "aliya",
+      "name": "Алия",
+      "alias": "Aliya G",
+      "role": "Лид по Красотище",
+      "emoji": "💎"
+    },
+    {
+      "id": "katrin",
+      "name": "Катя",
+      "alias": "Katrin",
+      "role": "Тигрица",
+      "emoji": "🐯"
+    },
+    {
+      "id": "ajsel",
+      "name": "Айсель",
+      "alias": null,
+      "role": "Туц-туц",
+      "emoji": "🎧"
+    },
+    {
+      "id": "lera",
+      "name": "Лера",
+      "alias": null,
+      "role": "Финансовая первопроходица",
+      "emoji": "💸"
+    },
+    {
+      "id": "demyan",
+      "name": "Демьян",
+      "alias": "Daaammm",
+      "role": "Готовит супер круто",
+      "emoji": "🍳"
+    },
+    {
+      "id": "dima",
+      "name": "Дима",
+      "alias": "Dmitry",
+      "role": "Просто крутой",
+      "emoji": "🌀"
+    },
+    {
+      "id": "jin",
+      "name": "Тот Самый Джин",
+      "alias": null,
+      "role": "Хейтер каши · Танцор на шесте",
+      "emoji": "🧞"
+    },
+    {
+      "id": "kravchenko",
+      "name": "Алексей Кравченко",
+      "alias": "early adopter",
+      "role": "Админ · Отец Паука",
+      "emoji": "🏄"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2026-03-15",
+      "to": [
+        "lesha"
+      ],
+      "amount": 10000,
+      "amount_raw": 1000000,
+      "reason": "потому что у него большой член и есть машина",
+      "by": "ulya",
+      "chat": "General",
+      "capped": true
+    },
+    {
+      "date": "2026-03-15",
+      "to": [
+        "lesha"
+      ],
+      "amount": 10000,
+      "amount_raw": 2000000,
+      "reason": "1) большой член 2) две машины — прошение Алии",
+      "by": "aliya",
+      "chat": "General",
+      "capped": true
+    },
+    {
+      "date": "2026-03-21",
+      "to": [
+        "ajsel"
+      ],
+      "amount": 400,
+      "reason": "Айсель!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-03-21",
+      "to": [
+        "dina"
+      ],
+      "amount": 500,
+      "reason": "Дине + 500 на сборке моторов",
+      "by": "ulya",
+      "chat": "Моторы",
+      "capped": false
+    },
+    {
+      "date": "2026-03-21",
+      "to": [
+        "tanya",
+        "dina",
+        "aliya",
+        "katrin",
+        "ajsel",
+        "lesha",
+        "vasya"
+      ],
+      "amount": -100,
+      "reason": "Всем −100 за пропуск сборки",
+      "by": "ulya",
+      "chat": "Моторы",
+      "capped": false
+    },
+    {
+      "date": "2026-03-24",
+      "to": [
+        "tanya"
+      ],
+      "amount": 20,
+      "reason": "за настрой и хорошую память. Ты молодец!",
+      "by": "ulya",
+      "chat": "Моторы",
+      "capped": false
+    },
+    {
+      "date": "2026-03-25",
+      "to": [
+        "tolya"
+      ],
+      "amount": 300,
+      "reason": "за то, что родился (40 лет!)",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-03-25",
+      "to": [
+        "tanya"
+      ],
+      "amount": 400,
+      "reason": "Тане за всё",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-03-25",
+      "to": [
+        "dina"
+      ],
+      "amount": 500,
+      "reason": "за регулярность!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-03-25",
+      "to": [
+        "lesha"
+      ],
+      "amount": 10000,
+      "amount_raw": 1000000000000,
+      "reason": "у него есть машина и красивая борода! и он лучший лид по моторам",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": true
+    },
+    {
+      "date": "2026-03-27",
+      "to": [
+        "ulya"
+      ],
+      "amount": 300,
+      "reason": "перенесла поездку и купила подарок на 40-летие Толи!",
+      "by": "ulya",
+      "chat": "Ивенты SP",
+      "capped": false
+    },
+    {
+      "date": "2026-04-16",
+      "to": [
+        "vasya"
+      ],
+      "amount": 100,
+      "reason": "Васе — общий взнос",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-04-16",
+      "to": [
+        "katrin"
+      ],
+      "amount": 600,
+      "reason": "Кате — за всё!!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-04-17",
+      "to": [
+        "vasya"
+      ],
+      "amount": 10000,
+      "amount_raw": 1000000000,
+      "reason": "Васе! (просто так)",
+      "by": "ulya",
+      "chat": "General",
+      "capped": true
+    },
+    {
+      "date": "2026-04-19",
+      "to": [
+        "vasya"
+      ],
+      "amount": 200,
+      "reason": "за лекцию по нейросетям!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-04-23",
+      "to": [
+        "vasya"
+      ],
+      "amount": 1000,
+      "reason": "он сегодня моторы делал до часу ночи. И у него они получаются",
+      "by": "ulya",
+      "chat": "Моторы",
+      "capped": false
+    },
+    {
+      "date": "2026-04-28",
+      "to": [
+        "vasya"
+      ],
+      "amount": 10000,
+      "reason": "Он очень крутой!!!!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-01",
+      "to": [
+        "kravchenko"
+      ],
+      "amount": 200,
+      "reason": "за то что добавил Диму",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-01",
+      "to": [
+        "dima"
+      ],
+      "amount": 100,
+      "reason": "потому что он крутой!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-01",
+      "to": [
+        "tanya"
+      ],
+      "amount": 300,
+      "reason": "за теплость и мягкость!",
+      "by": "jin",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-01",
+      "to": [
+        "tanya"
+      ],
+      "amount": 100,
+      "reason": "за то что у нее крутые очки!",
+      "by": "jin",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-01",
+      "to": [
+        "jin"
+      ],
+      "amount": 200,
+      "reason": "за хороший вкус и умение разбираться в женской температуре!",
+      "by": "jin",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-01",
+      "to": [
+        "tanya"
+      ],
+      "amount": 400,
+      "reason": "вчера за жарку",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-02",
+      "to": [
+        "tolya"
+      ],
+      "amount": 300,
+      "reason": "командированному в Токио — мерч паука уже продают! Один держал восточный фронт",
+      "by": "tolya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-09",
+      "to": [
+        "aliya",
+        "kravchenko",
+        "tanya"
+      ],
+      "amount": 300,
+      "reason": "за активную жизненную позицию! (китов показывали)",
+      "by": "ulya",
+      "chat": "Ивенты SP",
+      "capped": false
+    },
+    {
+      "date": "2026-05-09",
+      "to": [
+        "lesha",
+        "vasya",
+        "tolya",
+        "ulya",
+        "dina",
+        "katrin",
+        "aliya",
+        "tanya",
+        "lera",
+        "demyan",
+        "dima",
+        "jin",
+        "kravchenko"
+      ],
+      "amount": -50,
+      "reason": "за пропуск Квиза (всем кроме Айсель)",
+      "by": "ulya",
+      "chat": "Ивенты SP",
+      "capped": false
+    },
+    {
+      "date": "2026-05-12",
+      "to": [
+        "demyan"
+      ],
+      "amount": 500,
+      "reason": "встречаем Демьяна! Он супер круто готовит!",
+      "by": "ulya",
+      "chat": "General",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "katrin",
+        "vasya",
+        "lesha",
+        "aliya"
+      ],
+      "amount": 1000,
+      "reason": "за сборку моторов",
+      "by": "ulya",
+      "chat": "Моторы",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "demyan"
+      ],
+      "amount": 100,
+      "reason": "Демьяну за участие",
+      "by": "ulya",
+      "chat": "Моторы",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "lesha"
+      ],
+      "amount": -10,
+      "reason": "процесс оформления авто затянулся сильно",
+      "by": "tolya",
+      "chat": "General",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "lesha"
+      ],
+      "amount": 10000,
+      "amount_raw": 10000000000000,
+      "reason": "на созвоне поставил прикольную картинку на фон!",
+      "by": "ulya",
+      "chat": "Лидное",
+      "capped": true
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "tanya"
+      ],
+      "amount": -1,
+      "reason": "за неуважение (мы еще не разогнались)",
+      "by": "ulya",
+      "chat": "Лидное",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "lera"
+      ],
+      "amount": 1000,
+      "reason": "за то, что скинула первая",
+      "by": "ulya",
+      "chat": "Финансы",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "dina"
+      ],
+      "amount": 2000,
+      "reason": "Дине!",
+      "by": "ulya",
+      "chat": "Кухня",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "ulya"
+      ],
+      "amount": 10000,
+      "reason": "за то что собрала всех собирать моторы",
+      "by": "lesha",
+      "chat": "Моторы",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "tanya"
+      ],
+      "amount": 1000,
+      "reason": "за сплетни",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "aliya"
+      ],
+      "amount": 400,
+      "reason": "потому что она самая красивая",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "kravchenko"
+      ],
+      "amount": 100,
+      "reason": "потому что он собирается прийти завтра",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "vasya"
+      ],
+      "amount": 1000,
+      "reason": "Вася из стали делает — она дешевая. Сэкономил кучу денег",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "jin"
+      ],
+      "amount": 100,
+      "reason": "просто так",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "jin"
+      ],
+      "amount": 300,
+      "reason": "за то, что танцует на шесте!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "aliya"
+      ],
+      "amount": 100,
+      "reason": "первая всегда мне ставит реакции!!!!!!! + она очень красивая",
+      "by": "ulya",
+      "chat": "General",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "tanya"
+      ],
+      "amount": 100,
+      "reason": "у нее клевая сестра, умная и успешная, суперские шутки, скандальное Альтерэго",
+      "by": "ulya",
+      "chat": "General",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "jin"
+      ],
+      "amount": 30,
+      "reason": "за уважение к очкам уважения",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "tanya"
+      ],
+      "amount": 10000,
+      "amount_raw": 100000000,
+      "reason": "на собрании решено (мной): Таня большая молодец. У очков уважения меньше уважения, чем у Тани",
+      "by": "ulya",
+      "chat": "Жизнь SP SPB",
+      "capped": true
+    },
+    {
+      "date": "2026-05-13",
+      "to": [
+        "vasya"
+      ],
+      "amount": 10000,
+      "amount_raw": 100000000000,
+      "reason": "Вася, ты самый лучший (он в лес уезжает гладить кота и мох)",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": true
+    }
+  ],
+  "objects": [
+    {
+      "name": "Алюминий",
+      "balance": 0,
+      "icon": "⚙️",
+      "events": [
+        {
+          "date": "2026-05-12",
+          "amount": 300,
+          "reason": "сэкономил нам кучу денег (заявлено Улей)"
+        },
+        {
+          "date": "2026-05-12",
+          "amount": null,
+          "reason": "АННУЛИРОВАНО Толей: «не алюминий, дохуя дорогой, цветной металл»"
+        }
+      ]
+    },
+    {
+      "name": "Сталь",
+      "balance": 0,
+      "icon": "🔩",
+      "events": [
+        {
+          "date": "2026-05-12",
+          "amount": 0,
+          "reason": "Вася из стали делает — «она пизда дешевая» (—Толя)"
+        }
+      ]
+    },
+    {
+      "name": "Каши",
+      "balance": 300,
+      "icon": "🍚",
+      "events": [
+        {
+          "date": "2026-05-13",
+          "amount": 300,
+          "reason": "Каши топ"
+        }
+      ]
+    }
+  ]
+};
