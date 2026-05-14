@@ -120,18 +120,6 @@ window.PAUK_DATA = {
       "capped": true
     },
     {
-      "date": "2026-03-15",
-      "to": [
-        "lesha"
-      ],
-      "amount": 10000,
-      "amount_raw": 2000000,
-      "reason": "1) большой член 2) две машины — прошение Алии",
-      "by": "aliya",
-      "chat": "General",
-      "capped": true
-    },
-    {
       "date": "2026-03-21",
       "to": [
         "ajsel"
@@ -161,11 +149,10 @@ window.PAUK_DATA = {
         "aliya",
         "katrin",
         "ajsel",
-        "lesha",
         "vasya"
       ],
       "amount": -100,
-      "reason": "Всем −100 за пропуск сборки",
+      "reason": "Всем −100 за пропуск сборки (Лёша на сборке был)",
       "by": "ulya",
       "chat": "Моторы",
       "capped": false
@@ -400,7 +387,6 @@ window.PAUK_DATA = {
         "lesha",
         "vasya",
         "tolya",
-        "ulya",
         "dina",
         "katrin",
         "aliya",
@@ -412,7 +398,7 @@ window.PAUK_DATA = {
         "kravchenko"
       ],
       "amount": -50,
-      "reason": "за пропуск Квиза (всем кроме Айсель)",
+      "reason": "за пропуск Квиза (Айсель и Уля были на квизе)",
       "by": "ulya",
       "chat": "Ивенты SP",
       "capped": false
