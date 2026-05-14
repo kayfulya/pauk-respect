@@ -258,11 +258,8 @@
     border-radius: 4px; padding: 26px; max-width: 1080px; margin: 0 auto;
     backdrop-filter: blur(4px);
   }
-  .chart-wrap canvas { max-height: 480px; }
-  @media (max-width: 760px) {
-    .chart-wrap { padding: 14px; }
-    .chart-wrap canvas { max-height: 75vh !important; height: 560px !important; }
-  }
+  .chart-wrap canvas { width: 100% !important; }
+  @media (max-width: 760px) { .chart-wrap { padding: 14px; } }
 
   /* TIMELINE */
   .timeline { max-width: 880px; margin: 0 auto; position: relative; }
@@ -435,9 +432,9 @@
 
 <!-- CHART -->
 <section class="section">
-  <div class="section-eyebrow">⟡ Кривая Восхождения ⟡</div>
-  <h2 class="section-title">Динамика <em>уважения</em></h2>
-  <p class="section-desc">Накопленные очки во времени. Кто восходит к Пауку, кто стоит на месте.</p>
+  <div class="section-eyebrow">⟡ Шкала Восхождения ⟡</div>
+  <h2 class="section-title">Гонка <em>к Пауку</em></h2>
+  <p class="section-desc">Сводный рейтинг почитания. Длина полосы — мера уважения, дарованного Свидетелю.</p>
   <div class="container">
     <div class="chart-wrap">
       <canvas id="chart"></canvas>
@@ -553,65 +550,58 @@
     });
   }, 200);
 
-  // CHART
-  const sorted = [...D.transactions].sort((a,b) => a.date.localeCompare(b.date));
-  const dates = [...new Set(sorted.map(t => t.date))].sort();
-  const topForChart = ranked.slice(0, 7);
-  const palette = ['#c9a961','#2ca77c','#e8c987','#1e7a5a','#d6724a','#9a8edb','#ec97ad'];
-
-  const datasets = topForChart.map((m, idx) => {
-    let acc = 0;
-    const data = dates.map(d => {
-      const dayTx = sorted.filter(t => t.date === d && t.to.includes(m.id));
-      dayTx.forEach(t => acc += t.amount);
-      return acc;
-    });
-    return {
-      label: `${m.emoji} ${m.name}`,
-      data,
-      borderColor: palette[idx % palette.length],
-      backgroundColor: palette[idx % palette.length] + '20',
-      tension: 0.35,
-      fill: false,
-      pointRadius: 3,
-      pointHoverRadius: 8,
-      borderWidth: 3.5
-    };
-  });
+  // CHART — горизонтальная гонка
   const isMobile = window.matchMedia('(max-width: 760px)').matches;
+  const palette = ['#c9a961','#2ca77c','#e8c987','#1e7a5a','#d6724a','#9a8edb','#ec97ad','#7ec99f','#f0b27a','#a5d6e6','#e6a5d6','#d6a5a5','#c9c0a5','#a5c9a5'];
 
-  const months = ['янв','фев','мар','апр','май','июн','июл','авг','сен','окт','ноя','дек'];
-  new Chart(document.getElementById('chart'), {
-    type: 'line',
-    data: { labels: dates.map(d => {
-      const [, m, dd] = d.split('-');
-      return `${parseInt(dd)} ${months[parseInt(m)-1]}`;
-    }), datasets },
+  // Растяжимая высота канваса: 38px на каждого Свидетеля
+  const chartCanvas = document.getElementById('chart');
+  chartCanvas.style.height = (ranked.length * (isMobile ? 44 : 38) + 40) + 'px';
+
+  new Chart(chartCanvas, {
+    type: 'bar',
+    data: {
+      labels: ranked.map(m => `${m.emoji} ${m.name}`),
+      datasets: [{
+        label: 'Очки уважения',
+        data: ranked.map(m => m.score),
+        backgroundColor: ranked.map((m, i) => m.score < 0 ? '#9a3a3a' : palette[i % palette.length]),
+        borderColor: ranked.map((m, i) => m.score < 0 ? '#9a3a3a' : palette[i % palette.length]),
+        borderWidth: 0,
+        borderRadius: 3,
+        barPercentage: 0.78
+      }]
+    },
     options: {
+      indexAxis: 'y',
       responsive: true,
       maintainAspectRatio: false,
-      interaction: { mode: 'index', intersect: false },
+      animation: { duration: 1400, easing: 'easeOutCubic' },
       plugins: {
-        legend: {
-          position: isMobile ? 'top' : 'top',
-          align: 'start',
-          labels: {
-            color: '#ede4cf',
-            font: { family: 'Spectral', size: isMobile ? 14 : 13 },
-            padding: isMobile ? 10 : 14, usePointStyle: true, pointStyle: 'circle',
-            boxWidth: isMobile ? 8 : 10
-          }
-        },
+        legend: { display: false },
         tooltip: {
           backgroundColor: '#0a1a12', borderColor: '#c9a961', borderWidth: 1,
           titleColor: '#c9a961', bodyColor: '#ede4cf', padding: 12,
           titleFont: { family: 'Cormorant Garamond', size: 16, weight: 'bold' },
-          bodyFont: { family: 'Inter', size: 13 }
+          bodyFont: { family: 'Inter', size: 13 },
+          callbacks: {
+            label: ctx => `${fmt(ctx.parsed.x)} очков уважения`
+          }
         }
       },
       scales: {
-        x: { grid: { color: 'rgba(201,169,97,.08)' }, ticks: { color: '#ede4cf', font: { family: 'Spectral', size: isMobile ? 12 : 11 }, maxRotation: 0, autoSkip: true, maxTicksLimit: isMobile ? 6 : 12 } },
-        y: { grid: { color: 'rgba(201,169,97,.08)' }, ticks: { color: '#ede4cf', font: { family: 'Inter', size: isMobile ? 12 : 11 }, callback: v => fmt(v) } }
+        x: {
+          grid: { color: 'rgba(201,169,97,.10)' },
+          ticks: { color: '#ede4cf', font: { family: 'Inter', size: isMobile ? 12 : 11 }, callback: v => fmt(v) }
+        },
+        y: {
+          grid: { display: false },
+          ticks: {
+            color: '#ede4cf',
+            font: { family: 'Cormorant Garamond', size: isMobile ? 15 : 14, weight: '500' },
+            padding: 6
+          }
+        }
       }
     }
   });
