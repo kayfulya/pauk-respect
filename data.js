@@ -88,7 +88,7 @@ window.PAUK_DATA = {
       "id": "dima",
       "name": "Дима",
       "alias": "Dmitry",
-      "role": "Просто крутой",
+      "role": "ИЗГНАН",
       "emoji": "💀"
     },
     {
@@ -116,7 +116,7 @@ window.PAUK_DATA = {
       "id": "annushka",
       "name": "Аннушка",
       "alias": "Anna Prokazova",
-      "role": "Лид декора",
+      "role": "ИЗГНАН",
       "emoji": "🎨"
     },
     {
@@ -137,7 +137,7 @@ window.PAUK_DATA = {
       "id": "bot",
       "name": "Бот Свидетелей Паука",
       "alias": "@Uvazhenie_ochki_bot",
-      "role": "Цифровой свидетель",
+      "role": "ИЗГНАН",
       "emoji": "🤖"
     },
     {
@@ -151,7 +151,7 @@ window.PAUK_DATA = {
       "id": "egor",
       "name": "Егор",
       "alias": null,
-      "role": "Развалил СП 💀",
+      "role": "ИЗГНАН",
       "emoji": "💀"
     }
   ],
