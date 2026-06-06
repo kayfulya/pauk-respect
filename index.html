@@ -478,9 +478,13 @@
   <div class="sign">🕷 Засвидетельствовано Кайфулей · Совет Свидетелей Паука 🕷</div>
 </footer>
 
-<script src="data.js"></script>
 <script>
-(function() {
+  // Cache-buster: подгружаем data.js с timestamp, чтобы браузер не показывал старое
+  var s = document.createElement('script');
+  s.src = 'data.js?v=' + Date.now();
+  s.onload = init;
+  document.head.appendChild(s);
+function init() {
   const D = window.PAUK_DATA;
   const memberById = Object.fromEntries(D.members.map(m => [m.id, m]));
 
@@ -659,7 +663,7 @@
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
   document.getElementById('hero-period').textContent = D.meta.period;
-})();
+}
 </script>
 </body>
 </html>
