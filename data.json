@@ -1576,6 +1576,17 @@
       "by": "ulya",
       "chat": "Болталка",
       "capped": false
+    },
+    {
+      "date": "2026-06-06",
+      "to": [
+        "annushka"
+      ],
+      "amount": -700,
+      "reason": "за то что Совет Свидетелей Паука чтит меньше чем семью",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
     }
   ],
   "objects": [
