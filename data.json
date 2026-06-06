@@ -120,13 +120,6 @@
       "emoji": "🎨"
     },
     {
-      "id": "mama_annushka",
-      "name": "Мама Аннушки",
-      "alias": null,
-      "role": "Просто мама Аннушки",
-      "emoji": "💝"
-    },
-    {
       "id": "nikita",
       "name": "Никита",
       "alias": null,
@@ -854,17 +847,6 @@
       "capped": false
     },
     {
-      "date": "2026-05-22",
-      "to": [
-        "mama_annushka"
-      ],
-      "amount": 10000,
-      "reason": "Маме Аннушки! Передай ей что это максимум очков!",
-      "by": "ulya",
-      "chat": "Декор",
-      "capped": false
-    },
-    {
       "date": "2026-05-18",
       "to": [
         "tanya"
@@ -1580,6 +1562,17 @@
       ],
       "amount": 2000,
       "reason": "за моральный ущерб! Расти большая!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-06",
+      "to": [
+        "annushka"
+      ],
+      "amount": -10000,
+      "reason": "за самовольное удаление из беседы без обсуждения с Советом Паука",
       "by": "ulya",
       "chat": "Болталка",
       "capped": false
