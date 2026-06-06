@@ -1140,6 +1140,18 @@
       "by": "ulya",
       "chat": "Зверь26: паук",
       "capped": false
+    },
+    {
+      "date": "2026-06-06",
+      "to": [
+        "lera"
+      ],
+      "amount": 10000,
+      "reason": "за др",
+      "by": "tolya",
+      "chat": "Зверь26: паук",
+      "capped": true,
+      "amount_raw": 50000
     }
   ],
   "objects": [
