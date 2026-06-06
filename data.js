@@ -146,6 +146,20 @@ window.PAUK_DATA = {
       "alias": "@Uvazhenie_ochki_bot",
       "role": "Цифровой свидетель",
       "emoji": "🤖"
+    },
+    {
+      "id": "jenya",
+      "name": "Женя",
+      "alias": "Jenya Masanova",
+      "role": "Крутит пои",
+      "emoji": "🔥"
+    },
+    {
+      "id": "egor",
+      "name": "Егор",
+      "alias": null,
+      "role": "Развалил СП 💀",
+      "emoji": "💀"
     }
   ],
   "transactions": [
@@ -1146,24 +1160,397 @@ window.PAUK_DATA = {
       "to": [
         "lera"
       ],
-      "amount": 10000,
+      "amount": 5000,
       "reason": "за др",
       "by": "tolya",
-      "chat": "Зверь26: паук",
-      "capped": true,
-      "amount_raw": 50000
+      "chat": "Зверь26: паук"
+    },
+    {
+      "date": "2026-05-28",
+      "to": [
+        "tanya"
+      ],
+      "amount": -1000,
+      "reason": "за то что не подумала про билет (сама себе)",
+      "by": "tanya",
+      "chat": "Финансы",
+      "capped": false
+    },
+    {
+      "date": "2026-05-27",
+      "to": [
+        "aliya"
+      ],
+      "amount": -1000,
+      "reason": "по итогам созвона лидов",
+      "by": "tolya",
+      "chat": "Лидное",
+      "capped": false
+    },
+    {
+      "date": "2026-05-27",
+      "to": [
+        "kravchenko"
+      ],
+      "amount": -1000,
+      "reason": "по итогам созвона лидов",
+      "by": "tolya",
+      "chat": "Лидное",
+      "capped": false
+    },
+    {
+      "date": "2026-06-01",
+      "to": [
+        "kravchenko"
+      ],
+      "amount": 100,
+      "reason": "за правильную оценку себя",
+      "by": "tanya",
+      "chat": "General",
+      "capped": false
+    },
+    {
+      "date": "2026-06-01",
+      "to": [
+        "tanya"
+      ],
+      "amount": 200,
+      "reason": "за правильную оценку правильной оценки Леши",
+      "by": "ulya",
+      "chat": "General",
+      "capped": false
+    },
+    {
+      "date": "2026-06-02",
+      "to": [
+        "tolya"
+      ],
+      "amount": 1000,
+      "reason": "за нового фрезеровщика",
+      "by": "tolya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-02",
+      "to": [
+        "lesha"
+      ],
+      "amount": 10000,
+      "reason": "за моторы! (ситуация по моторам: все очень плохо)",
+      "by": "kravchenko",
+      "chat": "Моторы",
+      "capped": false
+    },
+    {
+      "date": "2026-06-02",
+      "to": [
+        "lesha"
+      ],
+      "amount": 10000,
+      "reason": "ещё 10000 сверху!",
+      "by": "tolya",
+      "chat": "Моторы",
+      "capped": false
+    },
+    {
+      "date": "2026-06-02",
+      "to": [
+        "nikita"
+      ],
+      "amount": 1000,
+      "reason": "за Одина",
+      "by": "ulya",
+      "chat": "General",
+      "capped": false
+    },
+    {
+      "date": "2026-06-02",
+      "to": [
+        "tanya"
+      ],
+      "amount": 3000,
+      "reason": "за то что купила квартиру!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-02",
+      "to": [
+        "tanya"
+      ],
+      "amount": 10,
+      "reason": "за то что уже 2 года платит ипотеку",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-03",
+      "to": [
+        "jenya"
+      ],
+      "amount": 1000,
+      "reason": "Жене за кухню и документы",
+      "by": "tanya",
+      "chat": "Кухня",
+      "capped": false
+    },
+    {
+      "date": "2026-06-04",
+      "to": [
+        "tolya"
+      ],
+      "amount": 1000,
+      "reason": "за то что своевременно увёл женщин",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-04",
+      "to": [
+        "tanya"
+      ],
+      "amount": 1000,
+      "reason": "лучшая котоняня",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-04",
+      "to": [
+        "aliya"
+      ],
+      "amount": 100,
+      "reason": "за то что Алия",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-04",
+      "to": [
+        "lesha"
+      ],
+      "amount": -300,
+      "reason": "за то что не спас Алию со стула",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "ulya",
+        "lesha",
+        "kravchenko",
+        "tolya",
+        "lera",
+        "vadim",
+        "ajsel",
+        "tanya",
+        "dina",
+        "jin",
+        "vasya",
+        "aliya",
+        "katrin"
+      ],
+      "amount": 1000,
+      "reason": "всем на скрине +1000 (созвон Кемпа)",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "vasya"
+      ],
+      "amount": -1000,
+      "reason": "за неуважение к очкам уважения",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "demyan"
+      ],
+      "amount": -500,
+      "reason": "не пришёл на созвон",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "dima"
+      ],
+      "amount": -500,
+      "reason": "не пришёл на созвон",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "nikita"
+      ],
+      "amount": -500,
+      "reason": "не пришёл на созвон",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "jenya"
+      ],
+      "amount": 300,
+      "reason": "за реабилитацию",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "egor"
+      ],
+      "amount": -10000,
+      "reason": "за развал СП — исключён 💀",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "tanya"
+      ],
+      "amount": 500,
+      "reason": "дополнительно за активность на созвоне",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "ajsel"
+      ],
+      "amount": 1000,
+      "reason": "за то что улыбается",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "lera"
+      ],
+      "amount": 500,
+      "reason": "за то что подключилась из машины",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "vadim"
+      ],
+      "amount": 500,
+      "reason": "за то что подключился из машины",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "katrin"
+      ],
+      "amount": 500,
+      "reason": "потому что у неё есть тачка",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-05",
+      "to": [
+        "kravchenko"
+      ],
+      "amount": 2000,
+      "reason": "за то что его очень много раз тегнул Толя после созвона",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
+    },
+    {
+      "date": "2026-06-03",
+      "to": [
+        "dina"
+      ],
+      "amount": 3000,
+      "reason": "Лёша и Уля скинули Дине (за Лида по очкам уважения)",
+      "by": "tanya",
+      "chat": "Финансы",
+      "capped": false
+    },
+    {
+      "date": "2026-06-03",
+      "to": [
+        "kravchenko"
+      ],
+      "amount": 500,
+      "reason": "в честь день-рожденческого предсказания",
+      "by": "ulya",
+      "chat": "Финансы",
+      "capped": false
+    },
+    {
+      "date": "2026-05-25",
+      "to": [
+        "tanya"
+      ],
+      "amount": 100,
+      "reason": "прост потому что",
+      "by": "jin",
+      "chat": "General",
+      "capped": false
+    },
+    {
+      "date": "2026-06-06",
+      "to": [
+        "tanya"
+      ],
+      "amount": 10000,
+      "reason": "Таня! Ты потрясающая! Спасибо! Я тебя люблю невероятно!",
+      "by": "ulya",
+      "chat": "Болталка",
+      "capped": false
     }
   ],
   "objects": [
     {
       "name": "Алюминий",
-      "balance": 1000495,
+      "balance": 990495,
       "icon": "⚙️",
       "events": [
         {
           "date": "2026-05-12",
-          "amount": 300,
-          "reason": "сэкономил нам кучу денег (заявлено Улей)"
+          "amount": 0,
+          "reason": "0 (АННУЛИРОВАНО Толей: не алюминий, дохуя дорогой, цветной металл)"
         },
         {
           "date": "2026-05-12",
@@ -1194,6 +1581,11 @@ window.PAUK_DATA = {
           "date": "2026-05-25",
           "amount": 1000000,
           "reason": "аллюминию за Улю"
+        },
+        {
+          "date": "2026-06-04",
+          "amount": -10000,
+          "reason": "выгоняем алюминий (заявлено Таней/Толей)"
         }
       ]
     },
@@ -1312,6 +1704,30 @@ window.PAUK_DATA = {
           "date": "2026-05-21",
           "amount": 100,
           "reason": "за то что существует! Новая фобия у арахнофобов (заявлено Улей)"
+        }
+      ]
+    },
+    {
+      "name": "Картошка",
+      "balance": 100,
+      "icon": "🥔",
+      "events": [
+        {
+          "date": "2026-06-04",
+          "amount": 100,
+          "reason": "за то, что Толя её любит (заявлено Таней)"
+        }
+      ]
+    },
+    {
+      "name": "Скрины",
+      "balance": -100,
+      "icon": "📸",
+      "events": [
+        {
+          "date": "2026-06-02",
+          "amount": -100,
+          "reason": "за подрыв веры в себя (заявлено Толей)"
         }
       ]
     }
