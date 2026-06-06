@@ -1118,6 +1118,17 @@ window.PAUK_DATA = {
       "by": "ulya",
       "chat": "Зверь26: паук",
       "capped": false
+    },
+    {
+      "date": "2026-06-06",
+      "to": [
+        "tolya"
+      ],
+      "amount": 5000,
+      "reason": "за решение исключить Егора",
+      "by": "ulya",
+      "chat": "Зверь26: паук",
+      "capped": false
     }
   ],
   "objects": [
