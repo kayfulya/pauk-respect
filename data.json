@@ -1129,6 +1129,17 @@
       "by": "ulya",
       "chat": "Зверь26: паук",
       "capped": false
+    },
+    {
+      "date": "2026-06-06",
+      "to": [
+        "jin"
+      ],
+      "amount": 10000,
+      "reason": "за то что такой охуенный! (заявил @a_kravchenko, одобрил Уля)",
+      "by": "ulya",
+      "chat": "Зверь26: паук",
+      "capped": false
     }
   ],
   "objects": [
